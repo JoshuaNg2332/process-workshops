@@ -7,6 +7,10 @@ All years divisible by 100 but not by 400 are NOT leap years (e.g. 1700, 1800 an
 All years divisible by 4 and not by 100 ARE leap years (e.g. 2004, 2008 and 2012 were leap years)
 All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were not leap years)
 
+Required elements: 
+input - year
+calculate leap year - method
+output - boolean
 
 Input:            Output:
 year(2000)        true
