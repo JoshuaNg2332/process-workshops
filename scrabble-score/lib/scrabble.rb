@@ -8,5 +8,4 @@ class Scrabble
     score = 0
   end
 
-
 end

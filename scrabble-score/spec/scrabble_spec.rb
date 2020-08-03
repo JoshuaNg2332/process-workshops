@@ -5,4 +5,9 @@ describe Scrabble do
   it 'starts the game with a score of 0' do
     expect(subject.score).to eq(0)
   end
+  it 'shows score of 8 when word is "hello"' do
+    scrabble = Scrabble.new
+    scrabble.user_input("hello")
+    expect(subject.score).to eq(8)
+  end
 end

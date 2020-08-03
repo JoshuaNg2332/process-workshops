@@ -13,6 +13,12 @@ user_input: is user input
 
 hash to assign letters to numbers.
 
+```
+def contains_vowel(str)
+  str =~ /[aeiou]/
+end
+```
+
 ## Requirements
 
 Given a word, compute the scrabble score for that word.
