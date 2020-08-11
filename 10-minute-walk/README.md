@@ -40,6 +40,20 @@ if up_down & left_right == 0
   false
 end
 
+
+#### How to run project
+
+1. Fork or clone this project.
+2. Run 'bundle install'
+
+
+#### How to run tests
+
+1. Fork or clone this project.
+2. Run 'bundle install'
+3. Run 'rspec'
+
+
 #### Acceptance Criteria
 ```ruby
 ten_minute_walk?(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']) # => true
